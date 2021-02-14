@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CC67A41425CD0E0A00F7CFE6 /* Mentor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC67A41325CD0E0A00F7CFE6 /* Mentor.swift */; };
 		CCB202CD25CC582900ACC39A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB202CC25CC582900ACC39A /* AppDelegate.swift */; };
 		CCB202CF25CC582900ACC39A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB202CE25CC582900ACC39A /* SceneDelegate.swift */; };
 		CCB202D125CC582900ACC39A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB202D025CC582900ACC39A /* ViewController.swift */; };
@@ -15,6 +16,9 @@
 		CCB202D925CC582B00ACC39A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCB202D725CC582B00ACC39A /* LaunchScreen.storyboard */; };
 		CCB202E425CC582B00ACC39A /* MentorBookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB202E325CC582B00ACC39A /* MentorBookTests.swift */; };
 		CCB202EF25CC582B00ACC39A /* MentorBookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB202EE25CC582B00ACC39A /* MentorBookUITests.swift */; };
+		CCB2030325CC58D200ACC39A /* ryo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB2030025CC58D200ACC39A /* ryo.jpg */; };
+		CCB2030425CC58D200ACC39A /* nagata.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB2030125CC58D200ACC39A /* nagata.jpg */; };
+		CCB2030525CC58D200ACC39A /* taithi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB2030225CC58D200ACC39A /* taithi.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CC67A41325CD0E0A00F7CFE6 /* Mentor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mentor.swift; sourceTree = "<group>"; };
 		CCB202C925CC582900ACC39A /* MentorBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MentorBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCB202CC25CC582900ACC39A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CCB202CE25CC582900ACC39A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +54,9 @@
 		CCB202EA25CC582B00ACC39A /* MentorBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MentorBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCB202EE25CC582B00ACC39A /* MentorBookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MentorBookUITests.swift; sourceTree = "<group>"; };
 		CCB202F025CC582B00ACC39A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCB2030025CC58D200ACC39A /* ryo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ryo.jpg; sourceTree = "<group>"; };
+		CCB2030125CC58D200ACC39A /* nagata.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nagata.jpg; sourceTree = "<group>"; };
+		CCB2030225CC58D200ACC39A /* taithi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = taithi.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,9 +111,11 @@
 				CCB202CE25CC582900ACC39A /* SceneDelegate.swift */,
 				CCB202D025CC582900ACC39A /* ViewController.swift */,
 				CCB202D225CC582900ACC39A /* Main.storyboard */,
+				CCB202FF25CC58D200ACC39A /* images */,
 				CCB202D525CC582B00ACC39A /* Assets.xcassets */,
 				CCB202D725CC582B00ACC39A /* LaunchScreen.storyboard */,
 				CCB202DA25CC582B00ACC39A /* Info.plist */,
+				CC67A41325CD0E0A00F7CFE6 /* Mentor.swift */,
 			);
 			path = MentorBook;
 			sourceTree = "<group>";
@@ -126,6 +136,16 @@
 				CCB202F025CC582B00ACC39A /* Info.plist */,
 			);
 			path = MentorBookUITests;
+			sourceTree = "<group>";
+		};
+		CCB202FF25CC58D200ACC39A /* images */ = {
+			isa = PBXGroup;
+			children = (
+				CCB2030025CC58D200ACC39A /* ryo.jpg */,
+				CCB2030125CC58D200ACC39A /* nagata.jpg */,
+				CCB2030225CC58D200ACC39A /* taithi.jpg */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +251,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCB2030525CC58D200ACC39A /* taithi.jpg in Resources */,
+				CCB2030325CC58D200ACC39A /* ryo.jpg in Resources */,
+				CCB2030425CC58D200ACC39A /* nagata.jpg in Resources */,
 				CCB202D925CC582B00ACC39A /* LaunchScreen.storyboard in Resources */,
 				CCB202D625CC582B00ACC39A /* Assets.xcassets in Resources */,
 				CCB202D425CC582900ACC39A /* Main.storyboard in Resources */,
@@ -258,6 +281,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC67A41425CD0E0A00F7CFE6 /* Mentor.swift in Sources */,
 				CCB202D125CC582900ACC39A /* ViewController.swift in Sources */,
 				CCB202CD25CC582900ACC39A /* AppDelegate.swift in Sources */,
 				CCB202CF25CC582900ACC39A /* SceneDelegate.swift in Sources */,
